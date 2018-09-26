@@ -1,4 +1,4 @@
-package Class;
+package com.example.dexp.tankccg;
 
 public abstract class Card {
     private String Name;

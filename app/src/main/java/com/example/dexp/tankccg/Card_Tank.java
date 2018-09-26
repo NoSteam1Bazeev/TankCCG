@@ -1,6 +1,8 @@
-package Class;
+package com.example.dexp.tankccg;
 
-public class Card_Tank extends Card{
+import com.example.dexp.tankccg.Card;
+
+public class Card_Tank extends Card {
     private int Hp;
     private int Damage;
     private int Speed;
@@ -30,7 +32,7 @@ public class Card_Tank extends Card{
         return Atack_D;
     }
 
-    public void Card_Tank(String name,int Damage,int Hp,int Speed,int Atack_D,int cost){
+    public Card_Tank(String name,int Damage,int Hp,int Speed,int Atack_D,int cost){
         this.Atack_D=Atack_D;
         this.Damage=Damage;
         this.Hp=Hp;
